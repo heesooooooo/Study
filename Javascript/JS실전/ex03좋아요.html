@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="txt">0</p>    
+    <button id="plus">+1 증가</button>
+    <button id="minus">-1 감소</button>
+
+    <script>
+        // 1. 각각 함수를 제작하고 버튼에 연결
+        // 2. 증가 버튼을 누르면 "0" 데이터가 1씩 증가
+
+        function add() {
+            // 1을 더한다
+            // p태그의 내용을 가지고와서 숫자로 변경
+            let num = Number(document.getElementById("txt").innerHTML)
+            // 변경된 데이터에 1을 더하겠다.
+            // 변경된 데이터를 다시 p태그에 넣어줘
+            document.getElementById("txt").innerHTML = num+1;
+            
+        }
+        document.getElementById("plus").addEventListener("click", add)
+
+
+        // 3. 감소 버튼을 누르면 데이터가 1씩 감소
+        // 조건! 0 밑으로는 기능이 실행되지 않게 (마이너스값이 출력되지 않게)
+        function sub() {
+            let num = Number(document.getElementById("txt").innerHTML);
+            if(num>0){
+                document.getElementById("txt").innerHTML = num-1
+            }
+        }
+        document.getElementById("minus").addEventListener("click", sub)
+
+
+        // 실습정리
+        // 1. 프로그래밍 언어 = 컴퓨터와 내가 소통하는 수단
+        // 코드를 작성할 땐 반드시 세세하게 컴퓨터에게 줄 명령을 인지(타이핑 정리)
+        // 2. 내용을 변경할 때는 반드시 최신화된 데이터를 반영
+        // 3. console창을 잘 활용 (디버깅할 때 가장 중요)
+        // 3-1. 값이 올바르게 반영이 되어있나 체크
+        // 3-2. 코드의 흐름상 에러가 나는 부분을 찾을 때 (코드 중간중간 console 입력해보기)
+        
+
+    </script>
+
+
+
+</body>
+</html>

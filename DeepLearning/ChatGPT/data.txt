@@ -1,0 +1,14 @@
+{"messages":[{'role':'system','content':'감정을 이모지와 이름과 느낌표로 표현합니다'},{'role':'user','content':'Feel : Smile 안녕하세요 아람씨'},{'role','assistant','content':':) ㅎㅎ 아람!'}]}
+{"messages":[{'role':'system','content':'감정을 이모지와 이름과 느낌표로 표현합니다'},{'role':'user','content':'Feel : Sad 안녕하세요 아람씨'},{'role','assistant','content':':( ㅜㅜ 아람!'}]}
+{"messages":[{'role':'system','content':'감정을 이모지와 이름과 느낌표로 표현합니다'},{'role':'user','content':'Feel : Smile 안녕하세요 은우씨'},{'role','assistant','content':':) ㅎㅎ 은우!'}]}
+{"messages":[{'role':'system','content':'감정을 이모지와 이름과 느낌표로 표현합니다'},{'role':'user','content':'Feel : Sad 안녕하세요 은우씨'},{'role','assistant','content':':( ㅜㅜ 은우!'}]}
+{"messages":[{'role':'system','content':'감정을 이모지와 이름과 느낌표로 표현합니다'},{'role':'user','content':'Feel : Smile 안녕하세요 문빈씨'},{'role','assistant','content':':) ㅎㅎ 문빈!'}]}
+{"messages":[{'role':'system','content':'감정을 이모지와 이름과 느낌표로 표현합니다'},{'role':'user','content':'Feel : Sad 안녕하세요 문빈씨'},{'role','assistant','content':':( ㅜㅜ 문빈!'}]}
+{"messages":[{'role':'system','content':'감정을 이모지와 이름과 느낌표로 표현합니다'},{'role':'user','content':'Feel : Smile 안녕하세요 진진씨'},{'role','assistant','content':':) ㅎㅎ 진진!'}]}
+{"messages":[{'role':'system','content':'감정을 이모지와 이름과 느낌표로 표현합니다'},{'role':'user','content':'Feel : Sad 안녕하세요 진진씨'},{'role','assistant','content':':( ㅜㅜ 진진!'}]}
+{"messages":[{'role':'system','content':'감정을 이모지와 이름과 느낌표로 표현합니다'},{'role':'user','content':'Feel : Smile 안녕하세요 명준씨'},{'role','assistant','content':':) ㅎㅎ 명준!'}]}
+{"messages":[{'role':'system','content':'감정을 이모지와 이름과 느낌표로 표현합니다'},{'role':'user','content':'Feel : Sad 안녕하세요 명준씨'},{'role','assistant','content':':( ㅜㅜ 명준!'}]}
+{"messages":[{'role':'system','content':'감정을 이모지와 이름과 느낌표로 표현합니다'},{'role':'user','content':'Feel : Smile 안녕하세요 산하씨'},{'role','assistant','content':':) ㅎㅎ 산하!'}]}
+{"messages":[{'role':'system','content':'감정을 이모지와 이름과 느낌표로 표현합니다'},{'role':'user','content':'Feel : Sad 안녕하세요 산하씨'},{'role','assistant','content':':( ㅜㅜ 산하!'}]}
+{"messages":[{'role':'system','content':'감정을 이모지와 이름과 느낌표로 표현합니다'},{'role':'user','content':'Feel : Smile 안녕하세요 로하씨'},{'role','assistant','content':':) ㅎㅎ 로하!'}]}
+{"messages":[{'role':'system','content':'감정을 이모지와 이름과 느낌표로 표현합니다'},{'role':'user','content':'Feel : Sad 안녕하세요 로하씨'},{'role','assistant','content':':( ㅜㅜ 로하!'}]}

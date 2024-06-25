@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+        }
+
+        #red{
+            background-color: red;
+        }
+        #green{
+            background-color: green;
+        }
+        #blue{
+            background-color: blue;
+        }
+
+
+
+        
+
+
+
+
+    </style>
+
+</head>
+<body>
+    
+
+    <div id="red"></div>
+    <div id="green"></div>
+    <div id="blue"></div>
+    <br>
+    <button id="btn">바꾸기</button>
+
+
+<script>
+    document.getElementById("txt").style.color ="red";
+        $("#txt").css("color","red")
+
+
+
+    <button id="btn" onclick="changestyle()"> 디자인 변경 </button>
+
+
+    function changestyle(){
+            console.log(document.getElementById("txt").style)
+            document.getElementById("txt").style.color = "red";
+            document.getElementById("txt").style.fontWeight = "bold";
+            document.getElementById("txt").style.fontSize= "50px";
+            // css를 효율적으로 작성하는 방법
+            document.getElementById("txt").style.cssText = "color:blue; background-color:yellow";
+
+        }
+
+
+
+        $("#btn").on("click", function(){
+                if($("body").hasClass("normal")){
+                    $("body").removeClass("normal");
+                    $("body").addClass("dark");
+                } else{
+                    $("body").removeClass("dark");
+                    $("body").addClass("normal");
+
+                }
+            })
+
+</script>
+
+</body>
+</html>

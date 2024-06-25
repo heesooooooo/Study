@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        div{
+            width: 100px;
+            height: 100px;
+        }
+
+
+
+        #red{
+            background-color: red;
+        }
+        #green{
+            background-color: green;
+        }
+        #blue{
+            background-color: blue;
+        }
+
+
+        #red1{
+            background-color: red;
+        }
+        #green2{
+            background-color: green;
+            margin-left: 100px;
+        }
+        #blue2{
+            background-color: blue;
+            margin-left: 200px;
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+    
+
+    <div id="red"></div>
+    <div id="green"></div>
+    <div id="blue"></div>
+    <br>
+    
+    <button id="btn" onclick="changestyle()">바꾸기</button>
+    
+    
+    
+    <script>
+        
+        
+        function changestyle(){
+                    document.getElementById("green").innerHTML=<div id="green2"></div>
+                    document.getElementById("blue").style.marginLeft = "200 px";
+                }
+
+
+    </script>
+
+
+
+
+</body>
+</html>
